@@ -1,0 +1,8 @@
+# Default ignored files
+/../../python_aos4 /.idea/shelf/
+/../../python_aos4 /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../python_aos4 /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../python_aos4 /.idea/dataSources/
+/../../python_aos4 /.idea/dataSources.local.xml
