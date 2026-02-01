@@ -17,7 +17,6 @@ def driver(request):
 
     service = Service(ChromeDriverManager().install())
     options = webdriver.ChromeOptions()
-    # options.add_argument("--headless") # Uncomment to run without UI
     driver = webdriver.Chrome(service=service, options=options)
     driver.maximize_window()
 

@@ -40,7 +40,7 @@ class TestHerokuApp:
 
     def test_invalid_login(self, driver):
         """
-        TC-02: Verify invalid login functionality (This test is designed to Pass if the error appears).
+        TC-02: Verify invalid login functionality
         """
         logging.info("Step 1: Navigate to Login Page")
         driver.get(LOGIN_URL)
@@ -60,7 +60,7 @@ class TestHerokuApp:
 
     def test_checkbox_selection(self, driver):
         """
-        TC-03: Verify Checkbox functionality.
+        TC-03: Verify Checkbox functionality
         """
         logging.info("Step 1: Navigate to Checkboxes Page")
         driver.get(CHECKBOX_URL)

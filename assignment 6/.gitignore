@@ -1,0 +1,6 @@
+# .gitignore
+../assignment 5/assignment 6 part 2/config.py
+*.pyc
+__pycache__/
+venv/
+.env
